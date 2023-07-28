@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply text-emerald-700 decoration-2 hover:underline;
+}
+
+h2 {
+    @apply text-xl font-medium text-slate-800;
+}
