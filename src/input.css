@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 a {
-    @apply text-emerald-700 decoration-2 hover:underline;
+    @apply text-emerald-700 decoration-2 border-b-2 border-emerald-700 hover:border-b-4;
 }
 
 h2 {
