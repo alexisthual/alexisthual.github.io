@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
-<body class="w-full min-h-full bg-gradient-to-tr from-teal-50 via-slate-100 to-purple-50">
+<body class="w-full min-h-full bg-gradient-to-tr from-indigo-50 via-slate-100 to-violet-50">
   <script src="./bundle.js"></script>
   <div class="w-full flex flex-col items-center gap-y-8 px-4 py-8">
     <div class="max-w-xl w-full flex justify-evenly items-center">
@@ -25,15 +25,20 @@
           <i class="text-slate-500 mr-1 fab fa-linkedin-in"></i>
           <a href="https://www.linkedin.com/in/alexisthual">linkedin.com/in/alexisthual</a>
         </p>
+        <p>
+          <i class="text-slate-500 mr-1 fa-solid fa-file-lines"></i>
+          <a href="assets/alexis_thual_resume.pdf">Resume</a>
+        </p>
       </div>
     </div>
 
     <div class="max-w-xl w-full flex flex-col gap-y-2">
       <p>
-        I am a PhD student in computational neuroscience at Neurospin, CEA and Inria, Paris Saclay, working under
-        the supervision of Bertrand Thirion and Stanislas Dehaene. My research focuses on anatomical and functional
-        differences of the cortex across individuals. To this end, we developed a series of optimal transport
-        solvers which we use to compare brains.
+        I am a PhD student in computational neuroscience at Neurospin, CEA and Inria, Paris Saclay, working under the
+        supervision of Bertrand Thirion and Stanislas Dehaene.
+        My research focuses on anatomical and functional differences of the cortex across individuals.
+        To this end, we developed a series of optimal transport solvers which we use to compare brains.
+        Using fMRI, we apply these methods to build brain decoders which can be transferred across individuals.
       </p>
       <p>
         Previously, I co-founded <a href="https://arkhn.org/">Arkhn</a>, a company that builds open source software to
@@ -51,9 +56,20 @@
       <h2>Publications</h2>
 
       <div class="bg-white drop-shadow p-4 rounded">
+        <p class="font-medium">Aligning brain functions boosts the decoding of visual semantics in novel subjects</p>
+        <p class="italic">
+          Alexis Thual, Yohann Benchetrit, Felix Geilert, Jérémy Rapin, Iurii Makarov, Hubert Banville, Jean-Rémi King
+        </p>
+        <p>
+          arXiv 2023,
+          <a href="https://arxiv.org/abs/2312.06467">https://arxiv.org/abs/2312.06467</a>
+        </p>
+      </div>
+
+      <div class="bg-white drop-shadow p-4 rounded">
         <p class="font-medium">Aligning Individual Brains with Fused Unbalanced Gromov Wasserstein</p>
         <p class="italic">
-          Thual Alexis, Quang Huy Tran, Tatiana Zemskova, Nicolas Courty, Rémi Flamary, Stanislas Dehaene, and
+          Alexis Thual, Quang Huy Tran, Tatiana Zemskova, Nicolas Courty, Rémi Flamary, Stanislas Dehaene, and
           Bertrand Thirion
         </p>
         <p>
@@ -106,5 +122,11 @@
 
   </div>
 </body>
+
+<footer class="w-full flex flex-col items-center py-8 text-slate-500">
+  <p>
+    Copyright © 2024 Alexis Thual
+  </p>
+</footer>
 
 </html>

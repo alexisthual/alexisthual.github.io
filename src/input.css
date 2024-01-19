@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 a {
-    @apply text-emerald-700 decoration-2 border-b-2 border-emerald-700 hover:border-b-4;
+    @apply text-teal-700 decoration-2 border-b-2 border-teal-700 hover:border-b-4;
 }
 
 h2 {
-    @apply text-xl font-medium text-slate-800;
+    @apply text-xl font-medium text-slate-800 my-4;
 }
