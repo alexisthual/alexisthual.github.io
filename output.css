@@ -534,14 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.relative {
-  position: relative;
-}
-
-.-left-4 {
-  left: -1rem;
-}
-
 .mr-1 {
   margin-right: 0.25rem;
 }
@@ -552,14 +544,6 @@ video {
 
 .h-24 {
   height: 6rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.max-h-full {
-  max-height: 100%;
 }
 
 .min-h-full {
@@ -586,29 +570,8 @@ video {
   max-width: 36rem;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
-}
-
 .flex-auto {
   flex: 1 1 auto;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
-}
-
-.-skew-x-12 {
-  --tw-skew-x: -12deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -621,10 +584,6 @@ video {
 
 .items-stretch {
   align-items: stretch;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-evenly {
@@ -819,9 +778,4 @@ h2 {
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
-}
-
-.before\:bg-\[url\(\'\.\/assets\/fugw\.png\'\)\]::before {
-  content: var(--tw-content);
-  background-image: url('./assets/fugw.png');
 }
